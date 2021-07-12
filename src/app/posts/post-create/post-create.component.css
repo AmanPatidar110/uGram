@@ -1,0 +1,22 @@
+.creation-tile{
+  margin-top: 1.5rem;
+  padding: 2rem;
+}
+
+textarea, mat-form-field {
+  width: 100%;
+}
+
+mat-form-field{
+  margin: 0.5rem auto;
+}
+
+.image-preview {
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.image-preview img{
+  height: 100%;
+}
+

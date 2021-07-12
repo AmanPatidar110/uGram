@@ -1,0 +1,35 @@
+<mat-card class="creation-tile" >
+  <mat-progress-bar mode="indeterminate" [color]="'accent'" *ngIf="isLoading"></mat-progress-bar>
+  <form *ngIf="!isLoading" #signupForm="ngForm" (submit)="onSignup(signupForm)">
+
+    <mat-form-field>
+      <input
+      name="email"
+      type="email"
+      matInput
+      placeholder="E-mail"
+      ngModel
+      #emailInput="ngModel"
+      required
+      email
+      >
+      <mat-error *ngIf="emailInput.invalid">Please enter a valid email.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input
+      name="password"
+      type="password"
+      matInput
+      placeholder="Password"
+      ngModel
+      #passwordInput="ngModel"
+      required
+      >
+      <mat-error *ngIf="passwordInput.invalid">Please enter a valid password.</mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="accent" type="submit" >Signup</button>
+
+  </form>
+</mat-card>

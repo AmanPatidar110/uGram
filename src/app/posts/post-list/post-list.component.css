@@ -1,0 +1,29 @@
+:host{
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.placeholder{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+mat-expansion-panel {
+  margin: auto;
+  width: 70%;
+}
+
+.post-image {
+  margin: auto;
+  width: 80%;
+}
+
+.post-image img {
+  width: 100%;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+mat-paginator {
+  margin: 1rem;
+}

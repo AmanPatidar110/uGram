@@ -1,0 +1,11 @@
+
+.creation-tile{
+  margin-top: 1.5rem;
+  padding: 2rem;
+}
+
+mat-form-field{
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
